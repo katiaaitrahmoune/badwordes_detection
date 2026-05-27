@@ -2,7 +2,7 @@
   "name": "real",
   "version": "1.0.0",
   "description": "",
-  "main": "moderator.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
@@ -13,6 +13,7 @@
   "type": "commonjs",
   "dependencies": {
     "@google/generative-ai": "^0.24.1",
+    "dotenv": "^16.0.0",
     "express": "^5.2.1"
   }
 }
